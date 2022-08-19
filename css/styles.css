@@ -33,12 +33,26 @@
     left: 453px;
 }
 
+.menu-navigation-item-agency:hover{
+    color: #2196f3;
+    cursor: pointer;
+}
+
 .menu-navigation-item-portfolio > a{
     position: absolute;
     width: 58px;
     height: 16px;
     top: 32px;
     left: 552px;
+
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu-navigation-item-portfolio:hover > a{
+    color: #2196f3;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .menu-navigation-item-contact{
@@ -49,7 +63,12 @@
     left: 656px;
 }
 
-.e-mail-top{
+.menu-navigation-item-contact:hover{
+    color: #2196f3;
+    cursor: pointer;
+}
+
+.e-mail-top > a{
     position: absolute;
     width: 135px;
     height: 16px;
@@ -57,9 +76,20 @@
     left: 1078px;
 
     list-style-type: none;
+    text-decoration: none;
+    color: #757575;
 
     font-family: 'Roboto';
     font-style: normal;
+}
+
+.e-mail-top:hover > a{
+    color: #2196f3;
+    cursor: pointer;
+}
+
+.e-mail-top:focus > a{
+    color: #2196f3;
 }
 
 .telephone-top{
@@ -70,6 +100,17 @@
     left: 1263px;
 
     list-style-type: none;
+
+    color: #757575;
+}
+
+.telephone-top:hover{
+    color: #2196f3;
+    cursor: pointer;
+}
+
+.telephone-top:focus{
+    color: #2196f3;
 }
 
 /* ******************** MENU ************************** */
@@ -79,7 +120,7 @@
     
 }
 
-.menu-item-all{
+.menu-item-all{             /* First button */
     position: absolute;
     width: 121px;
     height: 38px;
@@ -341,6 +382,26 @@
 .data-contact-bottom > ul{
     list-style-type: none;
     position: absolute;
+}
+
+.e-mail-bottom > a{
+    color: #757575;
+    text-decoration: none;
+}
+
+.e-mail-bottom:hover > a{
+    color: #2196f3;
+    cursor: pointers;
+    text-decoration: none;
+}
+
+.telephone-bottom{
+    color: #757575;
+}
+
+.telephone-bottom:hover{
+    color: #2196f3;
+    cursor: pointer;
 }
 
 /* .box-footer{
