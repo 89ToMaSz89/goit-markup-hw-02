@@ -72,10 +72,11 @@
     list-style-type: none;
 }
 
-/* ..................................................... */
+/* ******************** MENU ************************** */
 
 .menu {
     list-style-type: none;
+    
 }
 
 .menu-item-all{
@@ -86,7 +87,8 @@
     left: 510px;
 
     border-radius: 4px;
-    background-color: #2196F3;
+    border: none;
+
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
                 0px 1px 2px rgba(0, 0, 0, 0.08), 
                 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -97,7 +99,7 @@
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .menu-item-pages{
@@ -108,6 +110,19 @@
     left: 639px;
 
     border-radius: 4px;
+    border: none;
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+                0px 1px 2px rgba(0, 0, 0, 0.08), 
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
 }
 
 .menu-item-applications{
@@ -118,6 +133,19 @@
     left: 740px;
 
     border-radius: 4px;
+    border: none;
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+                0px 1px 2px rgba(0, 0, 0, 0.08), 
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
 }
 
 .menu-item-design{
@@ -128,6 +156,19 @@
     left: 862px;
 
     border-radius: 4px;
+    border: none;
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+                0px 1px 2px rgba(0, 0, 0, 0.08), 
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
 }
 
 .menu-item-marketing{
@@ -138,6 +179,74 @@
     left: 961px;
 
     border-radius: 4px;
+    border: none;
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+                0px 1px 2px rgba(0, 0, 0, 0.08), 
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.menu-item-all:hover{
+    background-color: #2196f3;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.menu-item-all:focus{
+    background-color: #2196f3;
+    color: #ffffff;
+}
+
+.menu-item-pages:hover{
+    background-color: #2196f3;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.menu-item-pages:focus{
+    background-color: #2196f3;
+    color: #ffffff;
+}
+
+.menu-item-applications:hover{
+    background-color: #2196f3;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.menu-item-applications:focus{
+    background-color: #2196f3;
+    color: #ffffff;
+}
+
+.menu-item-design:hover{
+    background-color: #2196f3;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.menu-item-design:focus{
+    background-color: #2196f3;
+    color: #ffffff;
+}
+
+.menu-item-marketing:hover{
+    background-color: #2196f3;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.menu-item-marketing:focus{
+    background-color: #2196f3;
+    color: #ffffff;
 }
 
 /* ********************* Projects ***************************** */
