@@ -6,35 +6,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="page">
     <!--Header-->
 
     <header>
-      <a href="" class="logo">WebStudio</a>
+      <a href="./index.html" class="logo-top">WebStudio</a>
 
       <!--Menu navigation-->
 
       <nav class="menu-navigation">
         <ul>
-          <li class="menu-item-agencja">Agencja</li>
-          <li class="menu-item-portfolio">
+          <li class="menu-navigation-item-agency">Agencja</li>
+          <li class="menu-navigation-item-portfolio">
             <a href="">Portfolio</a>
           </li>
-          <li class="menu-item-contact">Kontakt</li>
+          <li class="menu-navigation-item-contact">Kontakt</li>
         </ul>
       </nav>
 
       <ul>
-        <li>
+        <li class="e-mail-top">
           <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li>+48 111 111 111</li>
+        <li class="telephone-top">+48 111 111 111</li>
       </ul>
-      <div>
-        <h1>EFEKTYWNE ROZWIĄZANIA<br />DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
-      </div>
+
+      <!--Menu-->
+
+      <ul class="menu">
+        <li>
+          <button class="menu-item-all" type="button">Wszystkie</button>
+        </li>
+        <li>
+          <button class="menu-item-pages" type="button">Strony</button>
+        </li>
+        <li>
+          <button class="menu-item-applications" type="button">
+            Aplikacje
+          </button>
+        </li>
+        <li>
+          <button class="menu-item-design" type="button">Dizajn</button>
+        </li>
+        <li>
+          <button class="menu-item-marketing" type="button">Marketing</button>
+        </li>
+      </ul>
     </header>
+
+    <!--Main-->
+
+    <main>
+      <ul class="projects">
+        <li>
+          <figure class="project-1">
+            <img src="images/imgH.jpg" width="370" height="294" />
+            <figcaption class="picture-name">
+              Technocrack 
+              Strona internetowa
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-2">
+            <img src="images/imgI.jpg" width="370" height="294" />
+            <figcaption class="picture-name">
+              Grafika New Orlean vs Golden Star 
+              Dizajn
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-3">
+            <img src="images/imgJ.jpg" width="370" height="294" />
+            <figcaption class="picture-name">
+              Restauracja Seafood 
+              plikacja
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-4">
+            <img src="images/imgK.jpg" width="370" height="294" />
+            <figcaption class="picture-name">
+              Project Prime 
+              Marketing
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-5">
+            <img src="images/imgL.jpg" width="370" height="294" />
+            <figcaption class="picture-name">
+              Project Boxes 
+              Aplikacja
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-6">
+            <img src="images/imgM.jpg" width="370" height="294" />
+            <figcaption class="picture-name">
+              Inspirations has no Borders 
+              Strona internetowa
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-7">
+            <img src="images/imgN.jpg" width="370" height="294" />
+            <figcaption class="picture-name">
+              Magazyn Limited Edition 
+              Dizajn
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-8">
+            <img src="images/imgO.jpg" width="370" height="294" />
+            <figcaption class="picture-name">Projekt LAB 
+              Marketing</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-9">
+            <img src="images/imgP.jpg" width="370" height="294" />
+            <figcaption class="picture-name">
+              Growing Business 
+              Aplikacja
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </main>
+
+    <!--Footer-->
+
+    <footer>
+        <a href="/" class="logo-bottom">WebStudio</a>
+        <address class="data-contact-bottom">
+          <ul>
+            <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+            <li>
+              <a href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li>+48 111 111 111</li>
+          </ul>
+        </address>
+    </footer>
   </body>
 </html>
