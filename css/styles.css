@@ -1,22 +1,34 @@
   :root{
-    --main-font: font-family: 'Roboto', sans-serif;
+    --main-font: font-family: 'Roboto', 'Relaway', sans-serif;
     --main-color: #2196f3;
-    --secondary-color: #000000;
+    --secondary-color: #212121;
     --third-color: #757575;
+    --text-btn-color: #ffffff;
   }
 
   body{
     font-family: var(--main-font);
+    color: var(--secondary-color);
   }
 
 /* *************** HEADER *************** */
 
-.logo-header{
+.logo-header,
+.logo-footer{
     position: absolute;
     width: 145px;
     height: 31px;
     top: 24px;
     left: 215px;
+
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.192;
+
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    color: var(--main-color);
 }
 
             /* MENU NAVIGATION */
@@ -50,8 +62,7 @@
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
-    
-    color: var(--secondary-color);
+
     text-decoration: none;
 }
 
@@ -72,7 +83,7 @@
     left: 656px;
 }
 
-            /* CONTACT DETAILS */
+            /* CONTACT DETAILS HEADER */
 
 .contact-details-header{
     list-style-type: none;
@@ -84,14 +95,21 @@
     height: 16px;
     top: 32px;
     left: 1078px;
+}
 
+.contact-details-header-mail-link{
     text-decoration: none;
     color: var(--third-color);
 }
 
-.contact-details-header-mail:hover,
-.contact-details-header-telephone:hover,
-.contact-details-header-mail:focus{
+.contact-details-header-mail-link:hover,
+.contact-details-footer-mail-link:hover,
+.contact-details-header-telephone-link:hover,
+.contact-details-footer-telephone-link:hover,
+.contact-details-header-mail-link:focus,
+.contact-details-footer-mail-link:focus,
+.contact-details-header-telephone-link:focus,
+.contact-details-footer-telephone-link:focus{
     color: var(--main-color);
     cursor: pointer;
 }
@@ -102,7 +120,11 @@
     height: 16px;
     top: 32px;
     left: 1263px;
+}
 
+.contact-details-header-telephone-link,
+.contact-details-footer-telephone-link{
+    text-decoration: none;
     color: var(--third-color);
 }
 
@@ -116,7 +138,11 @@
     list-style-type: none;   
 }
 
-.menu-item-all{             /* First button */
+.menu-item-all-btn,
+.menu-item-pages-btn,
+.menu-item-applications-btn,
+.menu-item-design-btn,
+.menu-item-marketing-btn{
     position: absolute;
     width: 121px;
     height: 38px;
@@ -130,228 +156,143 @@
                 0px 1px 2px rgba(0, 0, 0, 0.08), 
                 0px 2px 2px rgba(0, 0, 0, 0.12);
 
-    font-style: normal;
     font-size: 16px;
     font-weight: 500px;
-    line-height: 26px;
+    line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #000000;
 }
 
-.menu-item-pages{
+.menu-item-all-btn:hover,
+.menu-item-pages-btn:hover,
+.menu-item-applications-btn:hover,
+.menu-item-design-btn:hover,
+.menu-item-marketing-btn:hover,
+.menu-item-all-btn:focus,
+.menu-item-pages-btn:focus,
+.menu-item-applications-btn:focus,
+.menu-item-design-btn:focus,
+.menu-item-marketing-btn:focus{
+    background-color: var(--main-color);
+    color: var(--text-btn-color);
+    cursor: pointer;
+}
+
+.menu-item-pages-btn{
     position: absolute;
     width: 93px;
     height: 38px;
     top: 174px;
     left: 639px;
-
-    border-radius: 4px;
-    border: none;
-
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-                0px 1px 2px rgba(0, 0, 0, 0.08), 
-                0px 2px 2px rgba(0, 0, 0, 0.12);
-
-    font-style: normal;
-    font-size: 16px;
-    font-weight: 500px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #000000;
 }
 
-.menu-item-applications{
+.menu-item-applications-btn{
     position: absolute;
     width: 114px;
     height: 38px;
     top: 174px;
     left: 740px;
-
-    border-radius: 4px;
-    border: none;
-
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-                0px 1px 2px rgba(0, 0, 0, 0.08), 
-                0px 2px 2px rgba(0, 0, 0, 0.12);
-
-    font-style: normal;
-    font-size: 16px;
-    font-weight: 500px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #000000;
 }
 
-.menu-item-design{
+.menu-item-design-btn{
     position: absolute;
     width: 91px;
     height: 38px;
     top: 174px;
     left: 862px;
-
-    border-radius: 4px;
-    border: none;
-
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-                0px 1px 2px rgba(0, 0, 0, 0.08), 
-                0px 2px 2px rgba(0, 0, 0, 0.12);
-
-    font-style: normal;
-    font-size: 16px;
-    font-weight: 500px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #000000;
 }
 
-.menu-item-marketing{
+.menu-item-marketing-btn{
     position: absolute;
     width: 121px;
     height: 38px;
     top: 174px;
     left: 961px;
-
-    border-radius: 4px;
-    border: none;
-
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-                0px 1px 2px rgba(0, 0, 0, 0.08), 
-                0px 2px 2px rgba(0, 0, 0, 0.12);
-
-    font-style: normal;
-    font-size: 16px;
-    font-weight: 500px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #000000;
 }
 
-.menu-item-all:hover{
-    background-color: #2196f3;
-    color: #ffffff;
-    cursor: pointer;
-}
 
-.menu-item-all:focus{
-    background-color: #2196f3;
-    color: #ffffff;
-}
 
-.menu-item-pages:hover{
-    background-color: #2196f3;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.menu-item-pages:focus{
-    background-color: #2196f3;
-    color: #ffffff;
-}
-
-.menu-item-applications:hover{
-    background-color: #2196f3;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.menu-item-applications:focus{
-    background-color: #2196f3;
-    color: #ffffff;
-}
-
-.menu-item-design:hover{
-    background-color: #2196f3;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.menu-item-design:focus{
-    background-color: #2196f3;
-    color: #ffffff;
-}
-
-.menu-item-marketing:hover{
-    background-color: #2196f3;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.menu-item-marketing:focus{
-    background-color: #2196f3;
-    color: #ffffff;
-}
-
-/* ********************* Projects ***************************** */
+            /* PROJECTS */
 
 .projects{
     list-style-type: none;
 }
 
-.picture-name{
-    white-space: pre-wrap;
-}
-
-.project-1{
+.project-item-first{
     position: absolute;
-    /* width: 370px;
-    height: 294px; */
     top: 262px;
     left: 215px;
 }
 
-.project-2{
+.project-item-second{
     position: absolute;
-    /* width: 370;
-    height: 294; */
     top: 262px;
     left: 615;
 }
 
-.project-3{
+.project-item-third{
     position: absolute;
     top: 262px;
     left: 1015px;
 }
 
-.project-4{
+.project-item-fourth{
     position: absolute;
     top: 696px;
     left: 215px;
 }
 
-.project-5{
+.project-item-fifth{
     position: absolute;
     top: 696px;
     left: 615px;
 }
 
-.project-6{
+.project-item-sixth{
     position: absolute;
     top: 696px;
     left: 1015px;
 }
 
-.project-7{
+.project-item-seventh{
     position: absolute;
     top: 1130px;
     left: 215px;
 }
 
-.project-8{
+.project-item-eighth{
     position: absolute;
     top: 1130px;
     left: 615px;
 }
 
-.project-9{
+.project-item-neinth{
     position: absolute;
     top: 1130px;
     left: 1015px;
+}
+
+.project-name{
+    position: absolute;
+    top: 314px;
+
+    white-space: pre-wrap;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+
+    letter-spacing: 0.06em;
+}
+
+.category-name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+
+    letter-spacing: 0.03em;
+
+    color: var(--third-color)
 }
 
 /* *************** END MAIN *************** */
@@ -397,16 +338,7 @@
     left: 215px;
 }
 
-.contact-details-footer-mail-link:hover,
-.contact-details-footer-mail-link:focus{
-    color: var(--main-color);
-    cursor: pointers;
-    text-decoration: underline;
-}
-
 .contact-details-footer-telephone{
-    color: var(--third-color);
-
     position: absolute;
     width: 231px;
     height: 21px;
@@ -414,9 +346,6 @@
     left: 215px;
 }
 
-.contact-details-footer-telephone:hover{
-    color: var(--main-color);
-    cursor: pointer;
-}
+
 
 /* *************** END FOOTER *************** */
