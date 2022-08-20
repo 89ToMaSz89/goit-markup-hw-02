@@ -72,7 +72,6 @@
 .menu-navigation-item-contact:hover,
 .menu-navigation-item-portfolio-link:focus{
     color: var(--main-color);
-    cursor: pointer;
     text-decoration: none;
 }
 
@@ -112,7 +111,6 @@
 .contact-details-header-telephone-link:focus,
 .contact-details-footer-telephone-link:focus{
     color: var(--main-color);
-    cursor: pointer;
 }
 
 .contact-details-header-telephone{
