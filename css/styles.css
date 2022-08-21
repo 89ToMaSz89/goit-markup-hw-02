@@ -81,7 +81,7 @@
 .menu-navigation-item-agency:hover,
 .menu-navigation-item-contact:hover,
 .menu-navigation-item-portfolio-link:focus,
-.menu-navigation-item-portfolio-link:active{
+.menu-navigation-item-portfolio-link:visited{
     color: var(--main-color);
     text-decoration: none;
 }
