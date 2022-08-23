@@ -1,7 +1,7 @@
   /* *************** VARIABLES *************** */
   
   :root{
-    --main-font: font-family: 'Roboto', 'Relaway', sans-serif;
+    --main-font: 'Roboto', 'Relaway', sans-serif;
     --main-color: #2196f3;
     --secondary-color: #212121;
     --third-color: #757575;
@@ -131,12 +131,13 @@
 
 .contact-details-top-telephone{
     position: absolute;
-    width: 110px;
+    width: 120px;
     height: 16px;
     top: 32px;
     left: 1263px;
 
     color: var(--third-color);
+
 }
 
 .contact-details-top-telephone-link,
@@ -438,6 +439,10 @@
     letter-spacing: 0.06em;
 
     color: var(--text-btn-color);
+}
+
+.head-main-btn:hover{
+    cursor: pointer;
 }
 
 .lorem{
